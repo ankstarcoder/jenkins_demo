@@ -12,7 +12,6 @@ import jakarta.annotation.PostConstruct;
 public class JenkinsDemoApplication {
 	private static final org.slf4j.Logger logger=LoggerFactory.getLogger(JenkinsDemoApplication.class);
 	
-	
 	@PostConstruct
 	public void init() {
 		logger.info("Application started succesfully");
