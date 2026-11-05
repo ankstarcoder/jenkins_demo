@@ -13,6 +13,7 @@ class JenkinsDemoApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test case executed successfully ...");
+		logger.info("Application executed succesfully");
 		assertEquals(true,true);
 	}
 
